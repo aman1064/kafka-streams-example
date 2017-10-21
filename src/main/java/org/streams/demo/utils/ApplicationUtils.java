@@ -1,4 +1,4 @@
-package com.wingify.streamer.utils;
+package org.streams.demo.utils;
 
 import com.codahale.metrics.Meter;
 import com.codahale.metrics.MetricRegistry;

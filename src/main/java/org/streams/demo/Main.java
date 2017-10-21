@@ -1,9 +1,9 @@
-package com.wingify.streamer;
+package org.streams.demo;
 
 import com.codahale.metrics.ConsoleReporter;
 import com.codahale.metrics.MetricRegistry;
-import com.wingify.streamer.streams.ClickStreamer;
-import com.wingify.streamer.utils.ApplicationUtils;
+import org.streams.demo.streams.ClickStreamer;
+import org.streams.demo.utils.ApplicationUtils;
 
 import java.io.FileInputStream;
 import java.io.IOException;

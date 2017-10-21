@@ -1,8 +1,8 @@
-package com.wingify.streamer.streams;
+package org.streams.demo.streams;
 
 import java.util.Properties;
 
-import com.wingify.streamer.models.ClickStream;
+import org.streams.demo.models.ClickStream;
 import org.apache.kafka.common.serialization.Serde;
 import org.apache.kafka.common.serialization.Serdes;
 import org.apache.kafka.common.serialization.StringDeserializer;
@@ -18,11 +18,11 @@ import org.apache.kafka.streams.kstream.internals.WindowedDeserializer;
 import org.apache.kafka.streams.kstream.internals.WindowedSerializer;
 import org.apache.kafka.streams.processor.WallclockTimestampExtractor;
 
-import com.wingify.streamer.Main;
-import com.wingify.streamer.collectors.ClickStreamCollector;
-import com.wingify.streamer.serializer.JsonDeserializer;
-import com.wingify.streamer.serializer.JsonSerializer;
-import com.wingify.streamer.utils.ClickStreamPartitioner;
+import org.streams.demo.Main;
+import org.streams.demo.collectors.ClickStreamCollector;
+import org.streams.demo.serializer.JsonDeserializer;
+import org.streams.demo.serializer.JsonSerializer;
+import org.streams.demo.utils.ClickStreamPartitioner;
 /*
 This class implements Runnable and all business logic of Kafka Topology is defined here.
 This uses a high level Streams DSL which is very similar to JAVA 8 lambda exppressions.

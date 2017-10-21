@@ -1,7 +1,7 @@
-package com.wingify.streamer;
+package org.streams.demo;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.wingify.streamer.models.ClickStream;
+import org.streams.demo.models.ClickStream;
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.Producer;
 import org.apache.kafka.clients.producer.ProducerRecord;

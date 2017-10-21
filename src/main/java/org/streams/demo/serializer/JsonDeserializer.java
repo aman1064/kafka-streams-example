@@ -1,4 +1,4 @@
-package com.wingify.streamer.serializer;
+package org.streams.demo.serializer;
 
 import java.io.IOException;
 import java.util.Map;

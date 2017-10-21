@@ -1,4 +1,4 @@
-package com.wingify.streamer.models;
+package org.streams.demo.models;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -65,8 +65,8 @@
 							<archive>
 								<manifest>
 									<mainClass>
-										com.wingify.streamer.Main
-									</mainClass>
+                                        org.streams.demo.Main
+                                    </mainClass>
 								</manifest>
 							</archive>
 							<descriptorRefs>

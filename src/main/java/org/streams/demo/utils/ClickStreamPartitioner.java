@@ -1,11 +1,11 @@
-package com.wingify.streamer.utils;
+package org.streams.demo.utils;
 
 import java.util.Random;
 
 import org.apache.kafka.streams.kstream.Windowed;
 import org.apache.kafka.streams.processor.StreamPartitioner;
 
-import com.wingify.streamer.collectors.ClickStreamCollector;
+import org.streams.demo.collectors.ClickStreamCollector;
 
 //Custom partitioning logic. Just an example that will return value between 0-7 hence applies for 8 paritions
 public class ClickStreamPartitioner implements StreamPartitioner<Windowed<String>, ClickStreamCollector> {

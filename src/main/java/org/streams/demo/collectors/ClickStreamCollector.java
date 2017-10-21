@@ -1,7 +1,7 @@
-package com.wingify.streamer.collectors;
+package org.streams.demo.collectors;
 
-import com.wingify.streamer.models.ClickStream;
-import com.wingify.streamer.utils.ApplicationUtils;
+import org.streams.demo.models.ClickStream;
+import org.streams.demo.utils.ApplicationUtils;
 
 public class ClickStreamCollector {
 
